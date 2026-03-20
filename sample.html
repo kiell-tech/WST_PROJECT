@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <title>SAMPLE</title>
+        
+        
+</head>
+
+<body>
+
+    <script type="text/javascript">
+            
+            
+            
+            
+        </script>
+
+        <form>
+            <label>Enter a Number</label>
+            <input type="number" id="num" name="num"> <br>
+
+            <button onclick="display();"> Submit </button>  
+            <button onclick="display();"> Cancel </button>
+        </form>
+    
+</body> 
+
+</html> 
+
+    <script>
+
+        function display () {
+            
+            var input = document.getElementById("num").value;
+            var number = 1;
+
+            do{
+                if (number % 2 ) {
+                    document.writeln(number);
+                    document.write("(Odd)");
+                    document.write("<br/>");
+                    document.write("<br/>");
+
+                } else {
+                    document.writeln(number);
+                    document.write("(Even)");
+                    document.write("<br/>");
+                    document.write("<br/>");
+                    
+                }
+
+                number++
+                
+            } while (number <= input) {
+                
+            }
+        }
+        
+
+
+    </script>
